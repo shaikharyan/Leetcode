@@ -31,6 +31,7 @@ For each person, we return the number of flowers in full bloom during their arri
 	<li><code>1 &lt;= people.length &lt;= 5 * 10<sup>4</sup></code></li>
 	<li><code>1 &lt;= people[i] &lt;= 10<sup>9</sup></code></li>
 </ul>
+<p>
 Intuition
 Notice that for any given time t, the number of flowers blooming at time t is equal to the number of flowers that have started blooming minus the number of flowers that have already stopped blooming.
 
@@ -41,3 +42,4 @@ Complexity
 Time complexity:O(NlogN)
 
 Space complexity:O(3*N)
+</p>
